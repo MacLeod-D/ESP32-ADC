@@ -40,7 +40,7 @@ How to use: (Arduino_IDE, ESP32,  <b>Esp32_Correct_DA2.ino</b>)
 3) Start the Serial Plotter
 4) Wait some minutes - you will see garbage (from the printout of results)
 5) See the corrected values as image (Correct_with_LUT.jpg). The correction is made for YOUR ESP32.<br><br>
-Sencond run:<br>
+Second run:<br>
 6) Comment out #define GRAPH   <<<<<<<<<<<<<<<<<<
 7) Start the program again
 8) Wait some minutes.
