@@ -69,5 +69,5 @@ Then use it with your own built and replaced ADC_LUT.<br>
 Here you can set your measured value for DAC(200) and then all results will give you real world voltages<br>
 with a precision of +/- 0.01V upto 2.5 V<br><br>
 
-Then use it with your own built and replaced ADC_LUT.<br>
+Advantages of a LookUpTable: Using it is much faster than using a fitted polynom and it should show better precision<br>
 
