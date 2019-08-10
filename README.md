@@ -1,7 +1,7 @@
 # ESP32-ADC
 ESP32 How to correct the ADC
 
-<h2>It is annoying: The results of the ESP32 Analog to Digital Converter are really bad !</h2><br><br>
+<h2>It is annoying:<br> The results of the ESP32 Analog to Digital Converter are really bad !</h2><br><br>
 See: Original_Output.jpg<br>
 
 <b>Is it possible to get precise results from ESP32-ADC ?</b><br>
