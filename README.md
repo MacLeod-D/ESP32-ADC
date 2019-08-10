@@ -2,7 +2,7 @@
 ESP32 How to correct the ADC
 
 <h2>It is annoying: The results of the ESP32 Analog to Digital Converter are really bad !</h2><br><br>
-See: Original_Output.jpg
+See: Original_Output.jpg<br>
 
 <b>Is it possible to get precise results from ESP32-ADC ?</b><br>
 
@@ -54,5 +54,5 @@ Y=readAnalog(); Y=ADC_LUT[Y]; (look at the program)<br><br>
 ESP32_WITH_MY_LUT.ino is a demo program (to use with Serial Plotter).>br>
 It contains MY corrections. If you start it you may see the differences of YOUR ESP32 to mine.<br><br>
 
-The use it with your own build ADC_LUT.<br>
+Then use it with your own built and replaced ADC_LUT.<br>
 
