@@ -18,6 +18,14 @@ FOR ME IT WORKS VERY WELL. (See: Correct_with_LUT.jpg)
 
 
 I estimate the ESP32-DAC produces correct values.<br>
+[note]
+(<br>
+  We know that is not true, but it is linear upto (about) output-value = 200)<br>
+  To be more precise: measure the ouput voltage of 200 with a good external voltmeter<br>
+  and calculate a slope factor<br>
+) <br>
+
+
 
 Then I want to build a LUT: <br>
 
