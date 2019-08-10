@@ -65,6 +65,7 @@ In your source: (Y: 0...4095) <br><br>
 
 ESP32_WITH_MY_LUT.ino is a demo program (to use with Serial Plotter).<br>
 It contains MY corrections. If you start it you may see the differences of YOUR ESP32 to mine.<br><br>
+Then use it with your own built and replaced ADC_LUT.<br>
 Here you can set your measured value for DAC(200) and then all results will give you real world voltages<br>
 with a precision of +/- 0.01V upto 2.5 V<br><br>
 
