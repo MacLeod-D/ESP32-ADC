@@ -23,7 +23,9 @@ I estimate the ESP32-DAC produces correct values.<br>
 
   We know that is not true, but it is linear upto (about) output-value = 200)<br>
   To be more precise: measure the ouput voltage of 200 with a good external voltmeter<br>
-  and calculate a slope factor<br>
+  and calculate a slope factor. See: ESP32_DAC_WITH_MY_LUT.ino<br><br>
+  
+  <b>With that I get good real world values up to 2.5 V </b>!<br>
 
 ===============================================================================<br>
 
