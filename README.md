@@ -44,15 +44,15 @@ Second run:<br>
 6) Comment out #define GRAPH   <<<<<<<<<<<<<<<<<<
 7) Start the program again
 8) Wait some minutes.
-9) When the program stops you get 2 arrays to include in your sources:
-float ADC_LUT[4096] = { .... with best precision
+9) When the program stops you get 2 arrays to include in your sources (well, use only one of them):<br>
+   float ADC_LUT[4096] = { .... with best precision
 and
-int ADC_LUT[4096] = { ... less precision, but with less memory footprint
+     int ADC_LUT[4096] = { ... less precision, but with less memory footprint
 
-In your source:
-Y=readAnalog(); Y=ADC_LUT[Y]; (look at the program)<br><br>
+In your source: (Y: 0...4095) <br><br>
+      Y=readAnalog(); Y=ADC_LUT[Y]; (look at the program)<br><br>
 
-ESP32_WITH_MY_LUT.ino is a demo program (to use with Serial Plotter).>br>
+ESP32_WITH_MY_LUT.ino is a demo program (to use with Serial Plotter).<br>
 It contains MY corrections. If you start it you may see the differences of YOUR ESP32 to mine.<br><br>
 
 Then use it with your own built and replaced ADC_LUT.<br>
